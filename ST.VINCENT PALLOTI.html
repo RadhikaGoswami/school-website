@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+         <link rel="shortcut icon" href="Photoshop-Logo.png"  />
+    
+          <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link href=" https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-bvyiisifek1dgmjrakycuhahrg32omucww7on3rydg4va+pmstsz/k68vbdejh4u" crossorigin="anonymous">
+        
+        
+    
+        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        
+      
+        
+  
+        
+<title>
+    ST.VINCENT PALLOTI SCHOOL
+</title>
+      
+    <style>
+        
+        html,body
+        {
+        margin: 0;
+        padding: 0;
+   
+         }
+   
+ 
+            *{
+                box-sizing: border-box;
+            }
+        
+        
+        
+        
+        .video-background{
+            position: absolute;
+            min-height:100%;
+            min-width: 100%;
+            width: auto;
+            height: auto;
+            bottom: 0;
+            right: 0;
+            z-index: -100;
+            
+            
+        }
+        
+        @media (min-aspect-ratio:16/9){
+            .video-background{
+                
+                width:100%;
+                height:auto;
+            }
+        }
+        
+        @media (max-aspect-ratio:16/9){
+            .video-background{
+                width: auto;
+                height: 100%;
+            }
+        }
+        
+        
+        header{
+            background:rgba(0,0,100,0.4);
+            height:100vh ;
+         
+  
+        }
+          #nav{background: rgba(0,0,0,0.5);
+        height: 80px;}
+        
+        .logo{
+            margin:10px 50px;
+        height: 80px; 
+            position: fixed;
+        }
+        
+        nav {
+    
+   width: 100%;
+    line-height: 60px;
+   z-index: 1;
+min-height: 30px; 
+ 
+position: fixed; 
+ box-shadow: 5px 10px 90px black;  
+            
+}
+ 
+nav ul {
+       border-bottom: 3px solid #ff4e46;
+      list-style: none;
+      background:rgba(255, 255, 255, 0.89);
+      overflow: hidden;
+      color:#333333;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+     position:fixed;
+      width: 100%;
+    line-height: 60px;      
+
+}
+ 
+nav.black ul {
+      background:rgba(255,255,255,.90);
+}
+ 
+nav ul li {
+      display: inline-block;
+      padding: 16px 30px;;
+}
+ 
+nav ul li a {
+      text-decoration: none;
+      color: #333333;
+        font-size: 21px;
+ padding: 5px 10px;
+}
+ 
+        
+     
+            ul li a:hover{
+           color: tomato;
+            border-bottom: 3px solid coral;
+            transition:.2s;
+        
+        }
+.menu-icon {
+    
+      width: 100%;
+      background:aliceblue;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color:#333333;
+      display: none;
+}
+      
+        
+        @media(max-width: 892px) {
+ 
+      .logo {
+            position: absolute;
+            top: 0;
+            margin-top:-9px;
+    
+      }
+ 
+      nav ul {
+            max-height: 0px;
+            background:white;
+      }
+ 
+      nav.black ul {
+            background: white;
+      }
+ 
+      .showing {
+            max-height: 34em;
+      }
+ 
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 4px;
+            text-align: center;
+      }
+ 
+      .menu-icon {
+            display: block;
+      }
+ 
+}  
+        .msg{position: absolute;
+        color:#fff;
+        top: 200px;
+        text-align: center;
+        
+        
+        }
+        
+        .msg h1{
+            font-size:52px;
+            margin:90px ;
+        font-weight:400; 
+            margin-left:90px ;
+            
+        }
+        
+        .btn{
+            font-size:18px;
+            color:#fff;
+            letter-spacing: 2px;
+            margin: 10px;
+            padding:7px 28px ;
+            text-decoration: none;
+            border: 1px solid coral;
+            border-radius: 25px;
+        }
+        
+        .btn1{background: coral;
+        color: #fff;}
+        
+        .btn2:hover{background: coral;
+        transition: .1s;}
+        
+       
+        
+         #mynav a {
+            position: absolute;
+          left:-163.4px;
+            transition:0.5s;
+        padding: 15px;
+        width: 208px;
+        text-decoration: none;
+        font-size:30px;
+        color: white;
+        border-radius:0 5px 5px 0;
+        margin-top: 0px;
+        text-align:right;
+        letter-spacing:2px;}
+        
+        
+        #mynav a:hover{
+            left: 0;
+  
+        }
+        
+        #whatsapp {
+            top:260px;
+            background-color:mediumseagreen;
+
+        }
+        
+        #twitter{
+            top:318px;
+            background-color: skyblue;
+        }
+        #facebook
+        {
+            top:376px;
+            background-color: dodgerblue;
+        }
+        #youtube{
+            top:435px;
+            background-color:tomato;
+        }
+        
+  
+        section {
+position: relative;
+z-index: -1;
+padding-top:60px;
+}
+        
+        
+        
+        
+        
+         .container{position: relative;
+    margin: 0 auto;
+    }
+    
+    
+    
+    .container .conten{
+        position: absolute;
+        bottom: 0;
+        background: rgba(0,0,0,0.5);
+        color: #f1f1f1;
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+        font-size:30px; 
+       
+    }
+        
+        
+        
+        
+        
+        
+        .our{   box-shadow: 5px 7px 8px 3px dimgrey;
+            float: right;
+            padding: 30px 20px 40px;
+            background: #fbfbfb;
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+              margin:0px 210px 0px 0px;
+            width: 290px;
+            height: 400px;
+            margin-bottom: 90px;
+            
+        }
+        
+        .our .pi{
+            display: inline-block;
+            width:130px ;
+            height: 130px;
+            margin-bottom: 50px;
+            position: relative;
+         
+       
+          
+          
+        }
+        
+        .our .pi:before{
+            content: "";
+            width: 100%;
+            background:#08c6a2;
+            bottom: 135%;
+            right: 0;
+            left: 0;
+            
+            transform:scale(3);
+            transition: all 0.3s linear 0s;
+               position: absolute;
+        }
+        
+        .our:hover  .pi:before{
+            height: 100%;
+            
+        }
+        
+        .our .pi:after{
+            content: "";
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background:#08c6a2;
+            position:absolute;
+            top:0;
+            left:0;
+            z-index: -1;
+        }
+        .our .pi img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            transform: scale(1);
+            transition:alt 0.9s ease 0s ;
+                transition: 4s;
+        }
+        .our:hover .pi img{
+            box-shadow:0 0 0 10px #f7f7ec;
+            transform: scale(0.7);
+        }
+        
+        .our .team{
+            margin-bottom:30px ;
+        
+        }
+        
+        .our .titl{
+            font-size: 22px;
+            font-weight: 700;
+            color: black;
+            letter-spacing: 1px;
+            text-transform: capitalize;
+            margin-bottom: 5px;
+        }
+        .our .pos{
+            display: block;
+            font-size: 15px;
+            color: black;
+            text-transform: capitalize;
+        }
+        
+        .our .socia{
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            bottom: -100px;
+            left: 0;
+            transition: all 0.5s ease 0s;
+        }
+        .our:hover .socia{
+            bottom: 0;
+             background: #08c6a2;
+        }
+        .our:hover  .socia li{
+          display: inline-block;
+        }
+        .our .socia li a {
+            display: block;
+            padding: 14px;
+            font-size: 17px;
+            color: white;
+            transition: all 0.3s ease 0s;
+        }
+        .our .socia li a:hover{
+            color: #eb1768;
+            background:#f7f5ec ;
+            text-decoration: none;
+            
+        }
+        
+        
+
+               .class{  
+    background-size: 7px 7px;
+    background-image: linear-gradient(to right, aliceblue 1px, transparent 1px), linear-gradient(to bottom, aliceblue 1px, transparent 1px);
+}
+      
+        
+     
+        
+        .infustracture .inf1 {
+           
+            width:340px ;
+            height: 300px;
+            margin-bottom: 0px;
+            position: relative;
+         
+   
+          
+        }
+        
+        
+        
+        .infustracture .diss {
+            display: inline-block;
+             background: #333333;
+            padding:20px 24px;
+                  width:351px;
+                    text-align: center;
+            margin-bottom: 0px;
+            position: relative;
+         
+       color: white;
+          
+          
+        }
+        .er .ear{
+            width: 100%;
+            height: 448px;
+        }
+       
+        .infustracture .hiss {
+            display: inline-block;
+             background: #08c6a2;
+            padding:20px 24px;
+                    text-align: center;
+                  width:351px;
+            margin-bottom:0px;
+            position: relative;
+         
+         color: white;
+        }
+        
+        
+        .infustracture .inf2 {
+            width:340px ;
+            height: 300px;
+            margin-bottom: 0px;
+            position: relative;
+    }
+        
+        
+        
+        .infustracture .diss2 {
+            display: inline-block;
+             background: #333333;
+            padding:20px 24px;
+                  width:351px;
+            margin-bottom: 0px;
+                    text-align: center;
+            position: relative;
+     
+              color: white;
+      }
+        
+       
+        .infustracture .hiss2 {
+            display: inline-block;
+             background: #ffc078;
+            padding:20px 24px;
+                  width:351px;
+            margin-bottom:0px;
+            position: relative;
+ 
+                    text-align: center;
+              color: white;
+       
+        }
+       
+         .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+        
+         .infustracture .inf3 {
+             width:340px ;
+            height: 300px;
+            margin-bottom: 0px;
+            position: relative;  
+        }
+        
+        
+
+        
+        
+        .infustracture .diss3 {
+            display: inline-block;
+             background: #333333;
+            padding:20px 24px;
+                  width:351px;
+                    text-align: center;
+            margin-bottom: 0px;
+            position: relative;
+        
+              color: white;
+      }
+        
+       
+        .infustracture .hiss3 {
+            display: inline-block;
+             background: #f27c66;
+            padding:20px 24px;
+                  width:351px;
+                    text-align: center;
+            margin-bottom:0px;
+            position: relative;
+          
+              color: white;
+       
+        }
+        
+        
+        .infustracture .inf4 {
+             width:340px ;
+            height: 300px;
+            margin-bottom: 0px;
+            position: relative;
+     
+        }
+        
+        
+        
+        .infustracture .diss4 {
+            display: inline-block;
+             background: #333333;
+            padding:20px 24px;
+                  width:351px;
+                    text-align: center;
+            margin-bottom: 0px;
+            position: relative;
+           
+              color: white;
+      }
+        
+       
+        .infustracture .hiss4 {
+            display: inline-block;
+             background: #ef5160;
+            padding:20px 24px;
+                  width:351px;
+            margin-bottom:0px;
+            position: relative;
+           
+              color: white;
+               text-align: center;
+        }
+        
+                
+        .infustracture{  box-shadow: 5px 7px 28px 3px dimgrey;
+            float: left;
+
+            overflow: hidden;
+            position: relative;
+           margin:0px 0px 40px 90px;
+            width: 320px;
+            height: 420px;
+        }
+        
+         .infustracture .inf5 {
+             width:340px ;
+            height: 300px;
+            margin-bottom: 0px;
+            position: relative;
+      
+     
+          
+        }
+        
+        .weare{
+            padding-top: 70px;
+            color: white;
+        }
+        
+        .we{   
+            border-bottom: 7px solid #3aa4a7;
+            margin-left: 400px;
+            margin-right: 490px;
+        }
+        
+        .infustracture .diss5 {
+            display: inline-block;
+             background: #333333;
+            padding:20px 24px;
+                  width:351px;
+            margin-bottom: 0px;
+            position: relative;
+          
+                    text-align: center;
+            color: white;
+      }
+        
+       
+        .infustracture .hiss5 {
+            display: inline-block;
+             background: #306ab3;
+            padding:20px 24px;
+                  width:351px;
+            margin-bottom:0px;
+            position: relative;
+            
+            text-align: center;
+            
+          color: white;
+        }
+       
+
+        
+        .footer-column{
+            background: #2D3339;
+    
+            color: #343a40;
+        
+        }
+        
+       .link{
+         font-size: 18px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #f27c66;
+    padding: 17px 15px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    box-shadow: 0 1px 0px rgba(0,0,0,0.24);
+        }
+        
+        
+        h3{
+            font-weight: lighter;
+        color: #919394;
+            font-size: 16px;
+        }
+        
+        .ki {
+   float: left;
+      padding: 90px;
+        }
+        
+        
+        
+          .kg{
+  float: left;
+          padding: 90px;
+           
+        }
+        
+        
+       .kj {
+  padding: 90px;
+        }
+        
+     
+        
+        section {
+position: relative;
+z-index: -1;
+            padding-top:60px;}
+
+  
+        .main-copy-redes{
+            background: #23272C;
+            padding: 37px;
+        }
+        .footer-copy{
+            text-align: center;
+            color:#DEE2E6;
+            font-size: 28px;
+        }
+        
+            
+        
+        
+        
+        
+        
+        
+        @media only screen and (min-width:501px){.welcome{
+            font-size: 40px;
+             margin-top: 60px;
+            margin-right: 350px;
+                
+          
+            margin-left: 300px;
+    letter-spacing: 1.2px;
+    padding-bottom: 1 0px;
+            border-bottom: 8px solid coral;
+        
+            }
+            
+        }
+  
+           @media only screen and (max-width:500px){.welcome{
+            font-size: 30px;
+                margin-top: 40px;
+            margin-right: 48px;
+          margin-left: 59px;
+    letter-spacing: 1.2px;
+    padding-bottom: 0px;
+            border-bottom: 4px solid coral;
+   }
+     }
+        
+      @media only screen and (min-width:600px){
+            
+        
+                .imj{
+            height: 400px;
+           width: 700px;
+            margin: 30px;
+            border: 9px solid black;
+            float: left;
+          }}
+        
+        @media only screen and (max-width:600px){
+            
+        
+              .imj {
+            height: 330px;
+           width: 430px;
+            margin: 30px;
+            border: 5px solid black;
+            float: left;
+          }}
+        
+        
+        
+         @media only screen and (min-width:600px){
+           .content{
+           margin-left: 300px;
+                margin-right: 50px;
+            margin-top: 10px;
+                font-size:19px;
+                line-height: 24px;
+                color: #5b5b5b;
+                 text-align: justify;
+        } 
+        
+        }
+        
+        
+        
+              @media only screen and (max-width:600px){
+                  .content{
+                  margin-left: 30px;
+                margin-right: 30px;
+            margin-top: 10px;
+                font-size:19px;
+                line-height: 24px;
+                color: #5b5b5b;
+                 text-align: justify;     
+              }
+                  }
+        
+        
+            @media only screen and (min-width:600px){  .mgs{
+          padding: 30px;
+            font-size: 100px;
+            color: #333333;
+            text-align: center;
+            border-bottom: 3px solid skyblue ;
+            margin-left: 300px;
+            margin-right: 300px;
+            margin-top: 90px;
+                }
+        }    
+    
+
+        
+         @media only screen and (max-width:600px){  .mgs{
+          padding-left: 10px;
+            font-size: 50px;
+            color: #333333;
+            text-align: center;
+            border-bottom: 3px solid skyblue ;
+            margin-left: 30px;
+            margin-right: 30px;
+            margin-top: 90px;
+                }
+        }    
+        
+        
+        
+        
+        
+        @media only screen and (min-width:600px){
+        .our-team{  box-shadow: 5px 7px 8px 3px dimgrey;
+            float: left;
+            padding: 30px 20px 40px;
+            background:#fbfbfb;
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+           margin:0px 100px 0px 170px;
+            width: 290px;
+            height: 400px;
+            }
+ }
+        @media only screen and (min-width:600px){
+        .our-team .pic {
+            display: inline-block;
+            width:130px ;
+            height: 130px;
+            margin-bottom: 50px;
+            position: relative;
+            }
+        }
+         @media only screen and (min-width:600px){
+        .our-team .pic:before{
+            content: "";
+            width: 100%;
+            background:#08c6a2;
+            bottom: 135%;
+            right: 0;
+            left: 0;
+          transform:scale(3);
+            transition: all 0.3s linear 0s;
+               position: absolute;
+             }}
+        
+        @media only screen and (min-width:600px){ .our-team:hover  .pic:before{
+            height: 100%;
+            }
+        }
+        
+        @media only screen and (min-width:600px){ .our-team .pic:after{
+            content: "";
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background:#08c6a2;
+            position:absolute;
+            top:0;
+            left:0;
+            z-index: -1;
+            }}
+       @media only screen and (min-width:600px){  .our-team .pic img{
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+            transform: scale(1);
+            transition:alt 0.9s ease 0s ;
+                transition: 4s;
+           }}
+        
+        @media only screen and (max-width:600px){ .our-team:hover .pic img{
+            box-shadow:0 0 0 10px #f7f7ec;
+            transform: scale(0.7);
+            }}
+        
+       @media only screen and (min-width:600px){  .our-team .team-content{
+            margin-bottom:30px ;
+           }
+
+        }
+        
+        @media only screen and (min-width:600px){ .our-team .title{
+            font-size: 22px;
+            font-weight: 700;
+            color: black;
+            letter-spacing: 1px;
+            text-transform: capitalize;
+            margin-bottom: 5px;
+            }}
+        
+         @media only screen and (min-width:600px){.our-team .post{
+            display: block;
+            font-size: 15px;
+            color: black;
+            text-transform: capitalize;
+             }}
+        
+        @media only screen and (min-width:600px){ .our-team .social{
+            width: 100%;
+            padding: 0;
+            margin: 0;
+           
+            position: absolute;
+            bottom: -100px;
+            left: 0;
+            transition: all 0.5s ease 0s;
+            }}
+        @media only screen and (min-width:600px){ .our-team:hover .social{
+            bottom: 0;
+             background:#08c6a2;
+            }}
+         @media only screen and (min-width:600px){.our-team:hover  .social li{
+          display: inline-block;
+             }}
+       @media only screen and (min-width:600px){  .our-team .social li a {
+            display: block;
+            padding: 14px;
+            font-size: 17px;
+            color: white;
+            transition: all 0.3s ease 0s;
+           }}
+        @media only screen and (min-width:600px){ .our-team .social li a:hover{
+            color: #eb1768;
+            background:#f7f5ec ;
+            text-decoration: none;
+            
+        }
+        
+        
+        
+        
+            
+           
+            
+            
+            
+            
+        
+    </style>
+    </head>
+    
+  <body>
+   
+    <header>
+        
+        <video autoplay loop  class="video-background"  muted plays-inline >
+           <source src="Campus Tour.mp4" type="video/mp4">
+           
+      </video>
+          
+        <nav>
+        <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>      </div> 
+        
+            
+            
+       <div class="menu">
+        
+            <ul >
+                <li><a href="ST.VINCENT%20PALLOTI.html">
+                    HOME</a></li> 
+              <li> <a href="about.html">  ABOUT US</a></li>
+                  <li><a href="galery.htm"> GALLERY</a></li>
+                <li><a href="admission.htm">  ADMISSION</a></li>
+              
+                <li><a href="contact.html"> CONTACT US</a></li>
+            </ul>
+  </div> 
+               <img src="st-vincent-pallotti-sr-sec-school-54.jpg" class="logo" style="width:120px;">
+             </nav>
+            
+ 
+            <div class="msg">
+            <h1> LET'S COME AND JOIN US</h1>
+            <a href="infrastucture.htm" class="btn btn1" >explore</a>
+          <a href="contact.html" class="btn btn2" >contact</a>
+        </div>
+   
+     
+      </header>
+   <div class="row">
+      
+      <div id="mynav" class="sidenav">
+      
+          <a href="#" id="whatsapp"> whatsapp            <i class="fab fa-whatsapp"></i></a>
+          
+          
+           <a href="#" id="facebook"> facebook <i class="fab fa-facebook-f"></i></a>
+          
+           <a href="#" id="twitter"> twitter
+               <i class="fab fa-twitter"></i></a>
+          
+           <a href="#" id="youtube"> youtube  <i class=" fab fa-youtube"></i></a>
+      </div>
+      
+      <div class="welcome">WELCOME TO STVPS BILASPUR</div><div class="we"></div>
+      <img src="people-2243021_1920.jpg" class="imj">
+            <div class="content">
+                  <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+                  <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+            </div>
+      <div class="class">
+      <h1 class="mgs">PRINCIPLE'S MESSAGE</h1>
+        <div class="col-md-3 col-sm-6">
+                <div class="our-team">
+                    <div class="pic">
+                        <img src="img_avatar.png">
+                    </div>
+                    <div class="team-content">
+                        <h3 class="title">willsome</h3>
+                        <span class="post">We aim to create a positive and inclusive campus culture celebrating both the individual and cultural differences We aim to create a positive and inclusive campus culture celebrating both the individual and cultural differences</span>
+                    </div>
+                    <ul class="social">
+                        <li><a href="#" class="fab fa-facebook-f"></a></li>
+                        <li><a href="#" class="fab fa-twitter"></a></li>
+                        <li><a href="#" class="fab fa-google-plus-g"></a></li>
+                        <li><a href="#" class="fab fa-linkedin-in"></a></li>
+                    </ul>
+                </div>
+            </div>
+        
+        
+        
+         <div class="col">
+                <div class="our">
+                    <div class="pi">
+                        <img src="avatar7.png" >
+                    </div>
+                    <div class="team">
+                        <h3 class="titl">willsome</h3>
+                        <span class="pos">We aim to create a positive and inclusive campus culture celebrating both the individual and cultural differences We aim to create a positive and inclusive campus culture celebrating both the individual and cultural differencesr</span>
+                    </div>
+                    <ul class="socia">
+                        <li><a href="#" class="fab fa-facebook-f"></a></li>
+                        <li><a href="#" class="fab fa-twitter"></a></li>
+                        <li><a href="#" class="fab fa-google-plus-g"></a></li>
+                        <li><a href="#" class="fab fa-linkedin-in"></a></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+      <div class="in">
+      <h1 class="mgs" >Infrastructre</h1>  </div>
+      <div class=" infustracture">
+      <img  src="laboratory-3827745_1920.jpg" class="inf1">
+      <div class="diss">SPORTS</div>
+            <div class="hiss">READ MORE</div>
+     </div>
+      
+      
+       <div class=" infustracture">
+      <img  src="jenga-2583734_1920.jpg" class="inf2">
+      <div class="diss2">LABS</div>
+            <div class="hiss2">READ MORE</div>
+     </div>
+      
+      
+      
+       <div class=" infustracture">
+      <img  src="laboratory-3827745_1920.jpg" class="inf3">
+      <div class="diss3">LIBRARYi</div>
+            <div class="hiss3">READ MORE</div>
+     </div>
+      
+       <div class=" infustracture">
+      <img  src="children-593313_1920.jpg" class="inf4">
+      <div class="diss4">VIRTUAL CLASSES</div>
+            <div class="hiss4">READ MORE</div>
+     </div>
+      
+       <div class=" infustracture">
+      <img  src="jenga-2583734_1920.jpg" class="inf5">
+      <div class="diss5">DANCE CLASSES</div>
+           <div class="hiss5">READ MORE</div>
+     </div>
+      
+      
+     
+      
+  <div class="container">
+  <img src="castle-336498_1920.jpg" alt="Notebook" style="width:100%; height:580px;;">
+  <div class="conten">
+    <h1>900+  |   1004+  |  789999 |</h1>
+      <p>people's enrolment</p> 
+  </div>
+          </div>
+       <br>
+      </div>
+      
+      
+      
+      
+      
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
+      <footer>
+  <div class="footer-column">
+            <div class="ki">
+             <h2 class="link">Quick links</h2>
+            
+             <h3> Latest Release</h3>
+ <h3>Updates</h3>
+ <h3>API</h3>
+ <h3>License</h3>  </div>
+  <div class="kg"> <h2 class="link">konw more</h2><h3>GitHub Project</h3>
+ <h3>Old Version 4.7</h3>
+<h3>ICONS</h3>
+     <h3>Cheatsheet</h3>
+ <h3> Requests Leaderboard</h3></div>
+  <div class="kj">
+    <h2 class="link">Galrrey</h2>
+      <h3>Request an Icon</h3>
+ <h3>SUPPORT</h3>
+ <h3> Troubleshooting</h3>
+  <h3>Common Questions</h3>
+    <h3>Report a Bug</h3></div>
+             
+             <i class="fas fa-tree"></i>
+             <i class="fas fa-city"></i>
+             <i class="fas fa-dove"></i>
+       <i class="fas fa-cloud"></i>
+  <i class="fas fa-walking"></i>
+
+       </div>
+           
+        
+      
+        <div class="main-copy-redes">
+            <div class="footer-copy">
+               website designed & developed by RADHIKA GOSWAMI
+            </div>
+            
+            
+        </div>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'<img src="https://i1155.photobucket.com/albums/p559/scrolltotop/arrow44.png" />',controlattrs:{offsetx:5,offsety:5},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var t=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);t="string"==typeof t&&1==jQuery("#"+t).length?jQuery("#"+t).offset().top:0,this.$body.animate({scrollTop:t},this.setting.scrollduration)},keepfixed:function(){var t=jQuery(window),o=t.scrollLeft()+t.width()-this.$control.width()-this.controlattrs.offsetx,s=t.scrollTop()+t.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:o+"px",top:s+"px"})},togglecontrol:function(){var t=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=t>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(t){var o=scrolltotop,s=document.all;o.cssfixedsupport=!s||s&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,o.$body=t(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),o.$control=t('<div id="topcontrol">'+o.controlHTML+"</div>").css({position:o.cssfixedsupport?"fixed":"absolute",bottom:o.controlattrs.offsety,right:o.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"Scroll to Top"}).click(function(){return o.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=o.$control.text()&&o.$control.css({width:o.$control.width()}),o.togglecontrol(),t('a[href="'+o.anchorkeyword+'"]').click(function(){return o.scrollup(),!1}),t(window).bind("scroll resize",function(t){o.togglecontrol()})})}};scrolltotop.init();</script>
+<noscript>Not seeing a <a href="https://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
+
+    </footer>
+</body>
+</html>

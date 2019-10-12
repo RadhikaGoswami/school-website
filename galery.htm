@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+    
+       <link rel="shortcut icon" href="st-vincent-pallotti-sr-sec-school-54.jpg"  />
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+    
+        <meta charset="utf-8">
+    
+        <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+    
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title> STVPS |   Gallery</title>
+      
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+         
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+         
+    <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+   
+}
+ 
+
+ 
+        
+        
+        
+        
+     
+        header{
+            background:url(woman-642118_1920.jpg) ;
+         background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+            height: 90vh;
+        }
+ #nav{background: rgba(0,0,0,0.5);
+        height: 80px; 
+             
+             
+ }
+        
+        .logo{
+            margin:10px 50px;
+        height: 80px; 
+            position: fixed;
+        }
+        
+        nav {      
+       
+    
+      width: 100%;
+    line-height: 60px;
+   z-index: 1;
+min-height: 30px; 
+  box-shadow: 5px 10px 90px black;
+
+position: fixed; }
+            
+              
+ 
+nav ul {
+       border-bottom: 2px solid #ff4e46;
+      list-style: none;
+      background:rgba(255, 255, 255, 0.952941);
+      overflow: hidden;
+      color:#333333;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+     position:fixed;
+      width: 100%;
+    line-height: 60px;      
+
+}
+ 
+ 
+nav.black ul {
+      background:rgba(255,255,255,.90);
+}
+ 
+nav ul li {
+      display: inline-block;
+      padding: 16px 30px;;
+}
+ 
+nav ul li a {
+      text-decoration: none;
+      color: #333333;
+      font-size: 21px;
+ padding: 5px 10px;
+}
+  
+            ul li a:hover{
+           color: tomato;
+            border-bottom: 3px solid coral;
+            transition:.2s;
+        
+        }
+.menu-icon {
+    
+      width: 100%;
+      background:aliceblue;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color:#333333;
+      display: none;
+}
+     
+        
+        @media(max-width: 864px) {
+ 
+ 
+      .logo {
+            position: absolute;
+            top: 0;
+            margin-top:-9px;
+    
+      }
+ 
+      nav ul {
+            max-height: 0px;
+            background:white;
+      }
+ 
+      nav.black ul {
+            background: white;
+      }
+ 
+      .showing {
+            max-height: 34em;
+      }
+ 
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 4px;
+            text-align: center;
+      }
+ 
+      .menu-icon {
+            display: block;
+      }
+ 
+}
+        
+        
+        
+         .gallery{ margin: 0px 0px;
+        }
+        
+        .gallery img{
+            transition: 4s;
+            padding: 15px;
+            width: 300px;
+        }
+        
+        .gallery img:hover{
+            filter: grayscale(50%);
+            transform: scale(1.1)
+        }
+        
+        
+        
+        .tagline{
+            background: lightgrey;
+            padding: 7px;
+            margin-top: 10px;
+            margin-bottom:0px ; 
+            text-align: center;
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+       
+         #mynav a {
+            position: absolute;
+          left:-194px;
+            transition:0.5s;
+        padding: 15px;
+        width: 210px;
+        text-decoration: none;
+        font-size:30px;
+        color: white;
+        border-radius:0 5px 5px 0;
+        margin-top: 0px;
+        text-align:right;
+        letter-spacing:2px;}
+        
+        
+        #mynav a:hover{
+            left: 0;
+  
+        }
+        
+        #whatsapp {
+            top:260px;
+            background-color:mediumseagreen;
+
+        }
+        
+        #twitter{
+            top:318px;
+            background-color: skyblue;
+        }
+        #facebook
+        {
+            top:376px;
+            background-color: dodgerblue;
+        }
+        #youtube{
+            top:435px;
+            background-color:tomato;
+        }
+        
+        
+        
+    
+        .bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+ background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("img1.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("img3.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("img7.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px  sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+        
+        
+        
+         
+        
+        .footer-column{
+            background: #2D3339;
+    
+            color: #343a40;
+        
+        }
+        
+       .link{
+         font-size: 18px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #f27c66;
+    padding: 17px 15px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    box-shadow: 0 1px 0px rgba(0,0,0,0.24);
+        }
+        
+        
+        h3{
+            font-weight: lighter;
+        color: #919394;
+            font-size: 16px;
+        }
+        
+        .ki {
+   float: left;
+      padding: 90px;
+        }
+        
+        
+        
+          .kg{
+  float: left;
+          padding: 90px;
+           
+        }
+        
+        
+       .kj {
+  padding: 90px;
+        }
+        
+     
+        
+        section {
+position: relative;
+z-index: -1;
+            padding-top:60px;}
+
+  
+        .main-copy-redes{
+            background: #23272C;
+            padding: 37px;
+        }
+       .footer-copy{
+            text-align: center;
+            color:#DEE2E6;
+            font-size: 28px;
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    
+    
+    
+   
+    <div class="wrapper">
+             <header>
+       
+             
+        <nav>
+        <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>      </div> 
+        
+            
+       <div class="menu">
+           
+            
+         
+            <ul >
+                   <li><a href="ST.VINCENT%20PALLOTI.html">
+                    HOME</a></li> 
+              <li> <a href="about.html">  ABOUT US</a></li>
+                  <li><a href="galery.htm"> GALLERY</a></li>
+                <li><a href="admission.htm">  ADMISSION</a></li>
+              
+                <li><a href="contact.html"> CONTACT US</a></li>
+            </ul>
+  </div> 
+            <img src="st-vincent-pallotti-sr-sec-school-54.jpg" class="logo" style="width:120px;">
+             </nav>
+            
+         
+  
+     
+      </header>
+           
+      </div>
+
+    
+    <div class="gallery">
+         <div class="tagline">School library</div> 
+        <a href="road.jpg" data-lightbox="mygallery" data-title="beautiful scenry"><img src="road.jpg"></a>
+       
+          <a href="mount.jpg" data-lightbox="mygallery"><img src="mount.jpg"></a>
+          
+          <a href="dog-647528_1920.jpg" data-lightbox="mygallery"><img src="dog-647528_1920.jpg"></a>
+          
+           <a href="magnolia-trees-556718_1920.jpg" data-lightbox="mygallery"><img src="magnolia-trees-556718_1920.jpg"></a>
+           <div class="tagline">School library</div> 
+           <a href="niagara-falls-218591_1920.jpg" data-lightbox="mygallery"><img src="niagara-falls-218591_1920.jpg"></a>
+        
+        
+         <a href="niagara-falls-218591_1920.jpg" data-lightbox="mygallery"><img src="niagara-falls-218591_1920.jpg"></a>
+        
+        
+         <a href="niagara-falls-218591_1920.jpg" data-lightbox="mygallery"><img src="niagara-falls-218591_1920.jpg"></a>
+        
+         <a href="niagara-falls-218591_1920.jpg" data-lightbox="mygallery"><img src="niagara-falls-218591_1920.jpg"></a>
+         <div class="tagline">School library</div> 
+         <a href="niagara-falls-218591_1920.jpg" data-lightbox="mygallery"><img src="niagara-falls-218591_1920.jpg"></a>
+        
+         <a href="road.jpg" data-lightbox="mygallery" data-title="beautiful scenry"><img src="road.jpg"></a>
+        
+        
+         <a href="niagara-falls-218591_1920.jpg" data-lightbox="mygallery"><img src="niagara-falls-218591_1920.jpg"></a>
+    
+    
+     <a href="niagara-falls-218591_1920.jpg" data-lightbox="mygallery"><img src="niagara-falls-218591_1920.jpg"></a>
+ <div class="tagline">School library</div> 
+     <a href="niagara-falls-218591_1920.jpg" data-lightbox="mygallery"><img src="niagara-falls-218591_1920.jpg"></a>
+    
+    
+    
+     <a href="niagara-falls-218591_1920.jpg" data-lightbox="mygallery"><img src="niagara-falls-218591_1920.jpg"></a>
+    
+     <a href="niagara-falls-218591_1920.jpg" data-lightbox="mygallery"><img src="niagara-falls-218591_1920.jpg"></a>
+        
+   <a href="road.jpg" data-lightbox="mygallery" data-title="beautiful scenry"><img src="road.jpg"></a>
+    </div>
+  
+ 
+    <div id="mynav" class="sidenav">
+      
+         <a href="#" id="whatsapp"> whatsapp            <i class="fab fa-whatsapp"></i></a>
+          
+          
+           <a href="#" id="facebook"> facebook <i class="fab fa-facebook-f"></i></a>
+          
+           <a href="#" id="twitter"> twitter
+               <i class="fab fa-twitter"></i></a>
+          
+           <a href="#" id="youtube"> youtube  <i class=" fab fa-youtube"></i></a>
+      </div>
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
+
+
+   <footer>
+  <div class="footer-column">
+            <div class="ki">
+             <h2 class="link">Quick links</h2>
+            
+             <h3> Latest Release</h3>
+ <h3>Updates</h3>
+ <h3>API</h3>
+ <h3>License</h3>  </div>
+  <div class="kg"> <h2 class="link">konw more</h2><h3>GitHub Project</h3>
+ <h3>Old Version 4.7</h3>
+<h3>ICONS</h3>
+     <h3>Cheatsheet</h3>
+ <h3> Requests Leaderboard</h3></div>
+  <div class="kj">
+    <h2 class="link">Galrrey</h2>
+      <h3>Request an Icon</h3>
+ <h3>SUPPORT</h3>
+ <h3> Troubleshooting</h3>
+  <h3>Common Questions</h3>
+    <h3>Report a Bug</h3></div>
+             
+             <i class="fas fa-tree"></i>
+             <i class="fas fa-city"></i>
+             <i class="fas fa-dove"></i>
+       <i class="fas fa-cloud"></i>
+  <i class="fas fa-walking"></i>
+
+       </div>
+           
+        
+      
+        <div class="main-copy-redes">
+            <div class="footer-copy">
+                &copy;All copyrights reserved
+            </div>
+            
+            
+        </div><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'<img src="https://i1155.photobucket.com/albums/p559/scrolltotop/arrow44.png" />',controlattrs:{offsetx:5,offsety:5},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var t=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);t="string"==typeof t&&1==jQuery("#"+t).length?jQuery("#"+t).offset().top:0,this.$body.animate({scrollTop:t},this.setting.scrollduration)},keepfixed:function(){var t=jQuery(window),o=t.scrollLeft()+t.width()-this.$control.width()-this.controlattrs.offsetx,s=t.scrollTop()+t.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:o+"px",top:s+"px"})},togglecontrol:function(){var t=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=t>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(t){var o=scrolltotop,s=document.all;o.cssfixedsupport=!s||s&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,o.$body=t(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),o.$control=t('<div id="topcontrol">'+o.controlHTML+"</div>").css({position:o.cssfixedsupport?"fixed":"absolute",bottom:o.controlattrs.offsety,right:o.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"Scroll to Top"}).click(function(){return o.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=o.$control.text()&&o.$control.css({width:o.$control.width()}),o.togglecontrol(),t('a[href="'+o.anchorkeyword+'"]').click(function(){return o.scrollup(),!1}),t(window).bind("scroll resize",function(t){o.togglecontrol()})})}};scrolltotop.init();</script>
+<noscript>Not seeing a <a href="https://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
+
+    </footer>
+</body>
+</html>
